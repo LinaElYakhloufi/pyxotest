@@ -3,4 +3,4 @@
         materialized='table'
     )
 }}
-SELECT * FROM "dev"."prod_backend"."tracks";
+SELECT * FROM "dev"."prod_backend"."tracks"
