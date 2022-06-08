@@ -4,4 +4,4 @@
     )
 }}
 SELECT * 
-FROM "dev"."prod_backend"."product_paired"
+FROM {{ source('dev', 'product_paired') }}

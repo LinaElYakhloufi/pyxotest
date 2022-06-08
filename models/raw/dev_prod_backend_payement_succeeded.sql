@@ -3,4 +3,4 @@
         materialized='table'
     )
 }}
-SELECT * FROM "dev"."prod_backend"."payment_succeeded"
+SELECT * FROM {{ source('dev', 'payment_succeeded') }}
