@@ -1,0 +1,8 @@
+version: 2
+
+models:
+  - name: dev_prod_backend_tracks
+    columns:
+      - name: user_id
+        tests: 
+          - not_null
